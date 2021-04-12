@@ -14,21 +14,27 @@
         </header>
         
         <p>You step through the front door and enter a modest - for a Mansion - Foyer.</p>
-        <p>There is a closet to your left, with various jackets and coats hanging in there. There are some standing coat racks along the wall, next to the closet. Along the walls of the foyer are small framed pieces of artwork, depicting "bright" things such as a sunrise, tulips, and meadows. There is a small table, to the left of the doorway, but there is nothing of interest on it.</p>
-        <p>There is an entryway or short hallway to the left of the closet. To the right of the doorway you entered the Mansion through, there is a set of stairs leading down. There is also a hall that opens up into a much larger room.
+        <p>There is a closet to your left, with various jackets and coats hanging in there. <br>There are some standing coat racks along the wall, next to the closet. Along the walls of the foyer are small framed pieces of artwork, depicting "bright" things such as a sunrise, tulips, and meadows. <br>There is a small table, to the left of the doorway, but there is nothing of interest on it.</p>
+        <p>There is an entryway or short hallway to the left of the closet. <br>To the right of the doorway you entered the Mansion through, there is a set of stairs leading down. <br>There is also a hall that opens up into a much larger room, next to the stairs.
         </p>
+
+        <p>Choose your next area to investigate:</p>
+        <p>For the stairs leading down, 'CODE UPCOMING!'.<br>For the hall next to the closet, <a href="den.html">Click HERE.</a><br>For the hall and large room, <a href="grandroom.html">Click HERE.</a>
+
+        <!-- Use Later -->
+        <button onclick="denChoice1()">Click to go to the Foyer</button>
 
         <script>
-            alert("Choose your next move below.");
+            function denChoice1() {
+                location.replace("foyer.html");
+            }
+            function denChoice2() {
+                location.replace("foyer.html");
+            }
+            
         </script>
-
-        <p id="choice">
-            To investigate the entry next to the closet, <a href="den.html">Click here.</a><br>
-            To investigate the stairs: CODE COMING SOON!<br>
-            To investigate the hall by the stairs, <a href="grandroom.html">Click here.</a><br>
-        </p>
-
-    
+     
+  
 
         <footer>
             2020, 2021 Cyborg Studios
